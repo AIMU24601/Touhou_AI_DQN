@@ -216,7 +216,7 @@ def commandend(action):
         releasekey(0xd0)#DOWN
         releasekey(0xcb)#LEFT
 
-HOST = "Magabukuro" #サーバー名を入力
+HOST = "" #サーバー名を入力
 PORT = 12345 #適当なPORTを指定
 CLIENT = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #IPv4による双方向通信
 CLIENT.connect((HOST, PORT)) #サーバーに接続
